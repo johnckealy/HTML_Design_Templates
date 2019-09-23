@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/home/jokea/web/CDN/font-awesome.min.css">
+    <link rel="stylesheet" href="/home/jokea/web/CDN/bootstrap.min.css">
+    <script src="/home/jokea/web/CDN/jquery-3.3.1.slim.min.js"></script>
+    <script src="/home/jokea/web/CDN/popper.min.js"></script>
+    <script src="/home/jokea/web/CDN/bootstrap.min.js"></script>
+
+    <style>
+      container {
+      }
+      section {
+        text-align: center;
+        background-color: #FFEAD1;
+        padding: 20px;
+
+      }
+      form {
+        display: inline-block;
+        text-align: left;
+      }
+      label {
+        padding: 5px;
+        font-size: 20px;
+        text-align: left;
+      }
+
+      butn {
+        text-align: center;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section>
+        <h1>Sign Up</h1>
+        <p>Create an account:</p>
+        <form action="submission.html" method="GET">
+          <label for="username">Username:</label>
+          <br>
+          <input id="username" name="username" type="text" required minlength="3" maxlength="15">
+          <br>
+          <label for="pw">Password:</label>
+          <br>
+          <!--Add the pattern attribute to the input below-->
+          <input id="pw" name="pw" type="password" required minlength="8" maxlength="15">
+          <br>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

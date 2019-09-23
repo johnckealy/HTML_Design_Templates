@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/home/jokea/web/CDN/font-awesome.min.css">
+    <link rel="stylesheet" href="/home/jokea/web/CDN/bootstrap.min.css">
+    <script src="/home/jokea/web/CDN/jquery-3.3.1.slim.min.js"></script>
+    <script src="/home/jokea/web/CDN/popper.min.js"></script>
+    <script src="/home/jokea/web/CDN/bootstrap.min.js"></script>
+    <title>Contact Us</title>
+
+    <style media="screen">
+
+      body {
+        font-family: "Open Sans", "Helvetica", "sans-serif";
+        color: white;
+        font-size: 17px;
+        background-image: url('../images/Fogscape.jpg');
+        background-size: cover;
+      }
+
+      label {
+        padding: 15px 0 2px 0;
+      }
+
+      input {
+        width: 100%;
+        background-color: white;
+        padding: 14px;
+      }
+
+      textarea {
+        width: 100%;
+      }
+
+      h1 {
+        padding: 40px;
+        font-size: 55px;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 25px;
+        text-align: center;
+      }
+
+      .contactform {
+        width: vw;
+        height: vh;
+      }
+
+      .inner-form {
+        width: 700px;
+        margin: 0 auto;
+      }
+
+      .submit-button {
+        background-color: blue;
+        color: white;
+        margin: 20px auto;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="contactform">
+      <div class="inner-form">
+
+        <h1>Contact Us</h1>
+        <br>
+        <h2>Got a question? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</h2>
+        <br>
+        <form action="submission.html" method="GET">
+          <label for="username">Name*</label>
+          <br>
+          <input id="username" name="username" type="text" required minlength="3" maxlength="20">
+          <br>
+          <label for="username">Email Address*</label>
+          <br>
+          <input id="emailaddress" name="emailaddress" type="text" required minlength="3" maxlength="25">
+          <br>
+          <label for="extra">Message</label>
+          <br>
+          <textarea id="extra" name="extra" rows="7"></textarea>
+          <br>
+          <input  class="submit-button" type="submit" value="Send Message">
+          <br>
+        </form>
+
+      </div>
+    </div>
+  </body>
+</html>

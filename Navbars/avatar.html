@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/home/jokea/web/CDN/font-awesome.min.css">
+    <link rel="stylesheet" href="/home/jokea/web/CDN/bootstrap.min.css">
+    <script src="/home/jokea/web/CDN/jquery-3.3.1.slim.min.js"></script>
+    <script src="/home/jokea/web/CDN/popper.min.js"></script>
+    <script src="/home/jokea/web/CDN/bootstrap.min.js"></script>
+
+    <style>
+
+      body {
+        font-family: "Open Sans", "Helvetica", "sans-serif";
+      }
+
+      .avatar {
+        border-radius: 50%;
+        width: 50px;
+      }
+
+      nav {
+        font-weight: bold;
+        border-radius: 10px;
+      }
+
+      .n-item {
+        padding: 8px;
+      }
+
+      .n-item a{
+        color: black;
+        font-size: 20px;
+        opacity: 0.7;
+      }
+
+      .n-item:hover a{
+        font-size:22px;
+        text-decoration: none;
+        opacity: 1;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">About</a>
+        </li>
+      </ul>
+      <div class="dropdown">
+          <img src="/home/jokea/Documents/photo.jpg" class="avatar dropdown-toggle" id="dropdownavatar" data-toggle="dropdown" >
+          <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownavatar">
+            <li class="n-item"><a href="#">Account</a></li>
+            <li class="n-item"><a href="#">Settings</a></li>
+            <li class="n-item"><a href="#">Logout</a></li>
+          </ul>
+      </div>
+    </nav>
+
+
+  </body>
+</html>
